@@ -54,24 +54,6 @@ figure img {
     display: block;
     width: 350px;
 }
-@media (max-width: 768px) {
-    body {
-      font-size: 14px;   /* чуть меньше шрифт */
-      padding: 10px;
-    }
-  
-    .container {
-      max-width: 100%;   /* контейнер растягивается на весь экран */
-      padding: 0 10px;
-    }
-  
-    ol {
-      flex-direction: column; /* меню в колонку */
-      align-items: center;
-    }
-  
-    li {
-      margin: 10px 0;
-    }
-  }
+@media (max-width: 768px)
+
   
